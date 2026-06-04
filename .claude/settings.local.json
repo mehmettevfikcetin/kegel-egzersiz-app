@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"c:\\\\TUM HERSEY  BURADA\\\\Yazilim Projeleri\\\\kegel-egzersiz-app\" && grep -iE \"CREATE_EXCEPTION|PROGRAM_COUNT|RenderFlex|overflow|Hero|dependents|deactiv|isEmpty|All tests|passed|failed|Oops\" test_out.txt 2>/dev/null | head -40; echo \"=== exit/size ===\"; wc -l test_out.txt 2>/dev/null)",
+      "Read(//c/TUM HERSEY BURADA/Yazilim Projeleri/**)",
+      "Bash(rm -rf build/native_assets)",
+      "Bash(flutter test *)",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(echo \"CREATE EXIT: $?\")",
+      "Bash(timeout 180 flutter test test/session_layout_test.dart test/create_program_test.dart)",
+      "Bash(timeout 150 flutter test test/session_layout_test.dart test/create_program_test.dart)",
+      "Bash(echo \"TEST EXIT: $?\")",
+      "Bash(flutter analyze *)"
+    ]
+  }
+}

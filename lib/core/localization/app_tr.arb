@@ -1,0 +1,247 @@
+{
+  "@@locale": "tr",
+
+  "appTitle": "Pelvik Taban Antrenmanı",
+  "@appTitle": {
+    "description": "Application title shown in the task switcher and app bars"
+  },
+
+  "navHome": "Ana Sayfa",
+  "navProgram": "Program",
+  "navProgress": "İlerleme",
+  "navHistory": "Geçmiş",
+
+  "homeTodayTitle": "Bugünün Setleri",
+  "homeStreak": "{count} günlük seri",
+  "@homeStreak": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "homeMorningSet": "Sabah Seti",
+  "homeEveningSet": "Akşam Seti",
+  "homeMiddaySet": "Öğle Seti",
+  "homeStartSession": "Antrenmana Başla",
+  "homeLongestStreak": "En uzun seri: {count} gün",
+  "@homeLongestStreak": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "homeMorningDone": "☀️ Sabah tamamlandı!",
+  "homeDayComplete": "🎉 Bugün tamamlandı!",
+  "homeExerciseSummary": "{sets} set × {reps} tekrar",
+  "@homeExerciseSummary": {
+    "placeholders": {
+      "sets": { "type": "int" },
+      "reps": { "type": "int" }
+    }
+  },
+  "homeHoldSeconds": "{seconds} sn tutuş",
+  "@homeHoldSeconds": {
+    "placeholders": {
+      "seconds": { "type": "int" }
+    }
+  },
+  "homeWeekProgress": "Bu hafta: {done}/{total} egzersiz",
+  "@homeWeekProgress": {
+    "placeholders": {
+      "done": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "homeNoExercises": "Bugün için egzersiz yok",
+  "homeNoProgram": "Etkin program yok",
+
+  "sessionPhaseSqueeze": "Kas",
+  "sessionPhaseHold": "Tut",
+  "sessionPhaseRelease": "Bırak",
+  "sessionPhaseRest": "Dinlen",
+  "sessionRepProgress": "{current} / {total} tekrar",
+  "@sessionRepProgress": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "sessionSetProgress": "{current} / {total} set",
+  "@sessionSetProgress": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "sessionPause": "Duraklat",
+  "sessionResume": "Devam Et",
+  "sessionSkip": "Atla",
+  "sessionFinish": "Bitir",
+  "sessionAbort": "İptal",
+  "sessionCompleted": "Tamamlandı!",
+  "sessionExitTitle": "Antrenmandan çık?",
+  "sessionExitMessage": "İlerlemen kaydedilmeyecek.",
+  "sessionExitConfirm": "Çık",
+  "sessionMute": "Sesi kapat",
+  "sessionUnmute": "Sesi aç",
+  "sessionNoteHint": "Bu seans için not (isteğe bağlı)",
+
+  "programLocked": "Kilitli",
+  "programUnlockHint": "Önceki haftanın %70'ini tamamla",
+  "programForceUnlock": "Yine de Aç",
+  "programPhase": "{number}. Faz",
+  "@programPhase": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+  "programWeek": "{number}. Hafta",
+  "@programWeek": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+
+  "achievementsTitle": "Başarımlar",
+  "achievementLocked": "Henüz kazanılmadı",
+
+  "progressTotalCompleted": "Tamamlanan",
+  "progressCurrentStreak": "Güncel seri",
+  "progressLongestStreak": "En uzun seri",
+  "progressCompletion": "Program ilerlemesi",
+  "progressWeeklyTitle": "Haftalık tamamlanma",
+  "progressActivityTitle": "Aktivite (son 3 ay)",
+  "progressBadgesSummary": "{unlocked}/{total} başarım",
+  "@progressBadgesSummary": {
+    "placeholders": {
+      "unlocked": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "progressWeekDays": "{count} gün",
+  "@progressWeekDays": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "settingsTitle": "Ayarlar",
+  "settingsThemeSystem": "Sistem",
+  "settingsThemeLight": "Açık",
+  "settingsThemeDark": "Koyu",
+  "settingsTheme": "Tema",
+  "settingsReminders": "Hatırlatıcılar",
+  "settingsForceUnlock": "Tüm haftaların kilidini aç",
+  "settingsWeeklySummary": "Haftalık özet bildirimi",
+
+  "settingsNotifications": "Bildirimler",
+  "settingsMorningReminder": "Sabah Hatırlatıcısı",
+  "settingsEveningReminder": "Akşam Hatırlatıcısı",
+  "settingsWeeklySummaryHint": "Her Pazar akşamı gönderilir",
+  "settingsTestNotification": "Test Bildirimi Gönder",
+  "settingsTestSent": "Test bildirimi gönderildi",
+  "settingsAppearance": "Görünüm",
+  "settingsProgramSection": "Program",
+  "settingsLevelSystem": "Seviye sistemi",
+  "settingsLevelSystemHint": "Haftalar önceki hafta %70 tamamlanınca açılır",
+  "settingsResetProgress": "İlerlemeyi Sıfırla",
+  "settingsResetProgressConfirm": "Tüm tamamlama kayıtların silinecek. Emin misin?",
+  "settingsDeleteAll": "Tüm Verileri Sil",
+  "settingsDeleteAllConfirm1": "Tüm özel programlar, kayıtlar ve başarımlar silinecek.",
+  "settingsDeleteAllConfirm2": "Bu işlem geri alınamaz. Devam edilsin mi?",
+  "settingsAbout": "Hakkında",
+  "settingsVersion": "Sürüm",
+  "settingsHowToUse": "Nasıl Kullanılır?",
+  "testNotificationTitle": "Test 🔔",
+  "testNotificationBody": "Bildirimler düzgün çalışıyor!",
+
+  "programCreateNew": "Yeni Program Oluştur",
+  "programNamePrompt": "Program adı",
+  "programResetDefault": "Varsayılana Sıfırla",
+  "programResetDefaultConfirm": "Varsayılan program ilk haline döndürülecek. Devam edilsin mi?",
+  "programActiveChip": "Etkin",
+  "programAddWeek": "Yeni Hafta Ekle",
+  "programAddExercise": "Egzersiz Ekle",
+  "programDeleteExerciseConfirm": "Bu egzersiz silinsin mi?",
+  "programDeleteWeekConfirm": "Bu hafta ve tüm egzersizleri silinsin mi?",
+  "programForceUnlockTitle": "Haftayı Zorla Aç",
+  "programForceUnlockExplain": "Bu hafta normalde önceki haftanın %70'i tamamlanınca açılır. Yine de şimdi açmak istiyor musun?",
+  "programDayMorning": "Sabah",
+  "programDayMidday": "Öğle",
+  "programDayEvening": "Akşam",
+
+  "exerciseName": "Egzersiz adı",
+  "exerciseType": "Tür",
+  "exerciseTypeKegel": "Kegel",
+  "exerciseTypeBreath": "Nefes",
+  "exerciseTypeMind": "Zihin",
+  "exerciseTypeCombo": "Kombo",
+  "exerciseSets": "Set",
+  "exerciseReps": "Tekrar",
+  "exerciseHold": "Tutma süresi: {seconds} sn",
+  "@exerciseHold": {
+    "placeholders": {
+      "seconds": { "type": "int" }
+    }
+  },
+  "exerciseRest": "Dinlenme: {seconds} sn",
+  "@exerciseRest": {
+    "placeholders": {
+      "seconds": { "type": "int" }
+    }
+  },
+  "exerciseDescription": "Açıklama",
+  "exerciseSteps": "Adımlar",
+  "exerciseAddStep": "Adım Ekle",
+  "exerciseStepHint": "{number}. adım",
+  "@exerciseStepHint": {
+    "placeholders": {
+      "number": { "type": "int" }
+    }
+  },
+
+  "remindersTitle": "Hatırlatıcılar",
+  "remindersAddTime": "Saat Ekle",
+  "remindersDailyTitle": "Egzersiz zamanı",
+  "remindersDailyBody": "Bugünkü setini tamamlamayı unutma 💪",
+  "weeklySummaryTitle": "Haftalık Özet",
+  "weeklySummaryBody": "Bu hafta {sessions} seans tamamladın. Harika gidiyorsun!",
+  "@weeklySummaryBody": {
+    "placeholders": {
+      "sessions": { "type": "int" }
+    }
+  },
+
+  "commonSave": "Kaydet",
+  "commonCancel": "Vazgeç",
+  "commonDelete": "Sil",
+  "commonEdit": "Düzenle",
+  "commonAdd": "Ekle",
+  "commonEmpty": "Henüz kayıt yok",
+  "commonReset": "Sıfırla",
+  "commonContinue": "Devam Et",
+  "commonClose": "Kapat",
+
+  "errorGeneric": "Bir şeyler ters gitti",
+  "errorRetry": "Tekrar Dene",
+
+  "badgeUnlockedTitle": "Yeni Başarım! 🎉",
+  "badgeUnlockedSnack": "Başarım kazanıldı: {name}",
+  "@badgeUnlockedSnack": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+
+  "onboardingSkip": "Atla",
+  "onboardingTitle1": "Pelvik Tabanını Güçlendir",
+  "onboardingBody1": "Bu 8 haftalık program, pelvik taban kaslarını kademeli olarak güçlendirmen için günlük kısa egzersizler sunar. Düzenli pratikle kontrol ve dayanıklılık kazanırsın.",
+  "onboardingTitle2": "Nasıl Çalışır?",
+  "onboardingStep1": "Her gün sabah ve akşam kısa setleri tamamla.",
+  "onboardingStep2": "Rehberli zamanlayıcı kas, tut, bırak ve dinlen fazlarında sana eşlik eder.",
+  "onboardingStep3": "Serini sürdür, başarımların kilidini aç ve ilerlemeni izle.",
+  "onboardingTitle3": "Hatırlatıcıları Aç",
+  "onboardingBody3": "Egzersizi unutmamak için günlük hatırlatma saatlerini seç. Bunları daha sonra Ayarlar'dan değiştirebilirsin.",
+  "onboardingMorning": "Sabah hatırlatıcısı",
+  "onboardingEvening": "Akşam hatırlatıcısı",
+  "onboardingNext": "Devam",
+  "onboardingFinish": "Başla"
+}
